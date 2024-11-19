@@ -1,5 +1,5 @@
 {
-  "name": "inter",
+  "name": "node-express",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/express": "^5.0.0",
+    "@prisma/client": "^5.22.0",
+    "@types/supertest": "^6.0.2",
     "express": "^4.21.1",
     "prisma": "^5.22.0",
-    "vitest": "^2.1.5"
+    "supertest": "^7.0.0",
+    "vitest": "^2.1.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/express": "^5.0.0",
+    "ts-jest": "^29.2.5",
+    "vitest-mock-extended": "^2.0.2"
   }
 }
